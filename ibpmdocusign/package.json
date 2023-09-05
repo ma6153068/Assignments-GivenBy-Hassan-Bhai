@@ -1,0 +1,22 @@
+{
+  "name": "ibpmdocusign",
+  "version": "1.0.0",
+  "description": "IBPM Docusign Integration usinf SFEC Intelligent Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x.x"
+  },
+  "author": "Malik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "client-oauth2": "^4.2.5",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  }
+}

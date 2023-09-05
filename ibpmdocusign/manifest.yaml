@@ -1,0 +1,6 @@
+---
+applications:
+- name: ibpmdocusign
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 128M

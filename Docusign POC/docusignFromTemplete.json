@@ -1,0 +1,71 @@
+{ 
+"emailSubject": "Employee Bond Letter",
+    "emailBlurb": "Please find the attachment and do your digital signature on it.",
+    "compositeTemplates": [
+        {
+            "serverTemplates": [
+                {
+                    "sequence": "1",
+                    "templateId": "58a2760c-84ad-4d79-9cde-2dc804b3c244"
+                }
+            ],
+            "inlineTemplates": [
+                {
+                    "recipients": {
+                        "signers": [
+						{
+           
+          
+            "name": "Mohd Anwar",
+            "email": "mohdanwaredu@gmail.com",
+            "recipientId": "1",
+            
+            "routingOrder": "1",
+            "note": "",
+            "roleName": "ceo",
+           
+            "recipientType": "signer"
+        },
+                             {
+            
+            "name": "Kamar Sir",
+            "email": "kamar.mohsin@inkitsolutions.com",
+            "recipientId": "2",
+           
+            "routingOrder": "2",
+            "note": "",
+            "roleName": "hr",
+            "recipientType": "signer"
+        },
+        {
+           
+          
+            "name": "Khan",
+            "email": "mohdanwaredu@gmail.com",
+            "recipientId": "3",
+            
+            "routingOrder": "3",
+            "note": "",
+            "roleName": "ceo",
+           
+            "recipientType": "signer"
+        }
+                        ]
+                    },
+                    "sequence": "2"
+                }
+            ]
+        }
+    ],
+    "status": "sent"
+}
+
+
+
+response->
+{
+    "envelopeId": "f77ce6b3-b794-4f2e-9a7d-f29a3091004c",
+    "uri": "/envelopes/f77ce6b3-b794-4f2e-9a7d-f29a3091004c",
+    "statusDateTime": "2023-05-15T18:09:02.8400000Z",
+    "status": "sent"
+}
